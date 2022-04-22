@@ -9,12 +9,12 @@ let intervalId;
 startBtn.addEventListener("click", start);
 
 function start() {
+  startBtn.setAttribute("disabled", true);
   intervalId = setInterval(updateClockFace, 1000);
 };
 
 function updateClockFace() {
-  if (clockFace.innerHTML > 0) {
-    startBtn.setAttribute("disabled", true);
+  if (time > 0) {
     time = time < 10 ? "0" + time : time;
     clockFace.innerHTML = time;
     time = time - 1;
