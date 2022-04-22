@@ -1,0 +1,47 @@
+:root {
+  --fontColour: #000000;
+}
+.header {
+  font-size: 40px;
+  color: var(--fontColour);
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.seconds {
+  overflow: hidden;
+  margin: auto;
+  height: 1.2em;
+  width: 2ch;
+  text-align: center;
+  font-size: calc(5vw + 9em);
+  padding: 0 0.3em;
+  color: var(--fontColour);
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+
+.button {
+  font-size: 1.2em;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 360px) {
+  .timer {
+    font-size: 15em;
+  }
+}
