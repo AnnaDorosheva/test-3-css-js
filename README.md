@@ -1,7 +1,7 @@
 # test-3-css-js
 
 - Timer with js
-- This site was built using [GitHub Pages](https://).
+- This site was built using [GitHub Pages](https://annadorosheva.github.io/test-3-css-js/).
 - TASK: Please integrate a countdown in the provided HTML page.
 
 The counter starts when the button is clicked and counts back from 10 every second until it reaches 0. When it reaches 0, it stops.
